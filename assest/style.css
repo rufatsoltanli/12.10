@@ -1,0 +1,213 @@
+*{
+    font-family: 'AR One Sans', sans-serif;
+}
+body{
+    background-color: rgb(151, 155, 168);
+    
+}
+.card{
+    margin: 100px;
+    border: 3px solid grey;
+    width: 305px;
+    height: 505px;
+position: relative;
+border-radius: 12px;
+background-color: white;
+
+    
+}
+img{
+    width: 250px;
+    margin:;
+    height: 400px;
+    position: relative;
+    
+}
+.cardinside{
+    margin:35px;
+    margin-top: 0px;
+}
+.fa-heart{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    height: 25px;
+    width: 25px;
+  text-align: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: px;
+    padding-left:0.5px ;
+    padding-top: 5px;
+    transition: .4s;
+}
+
+.text{
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    top: ;
+}
+.price{
+    position: absolute;
+    bottom:0;
+    left: 20px;
+}
+.yellow{
+    color: rgba(248, 195, 21, 0.644);
+    display: inline-block;
+    transition: .s;
+}
+.fa-star.grey{
+    color: gray;
+    transition: .2s;
+}
+
+.fa-heart:hover{
+    color: rgb(107, 11, 11);
+    background-color: gray;
+}
+
+.fa-star.grey:hover{
+    color: rgba(248, 195, 21, 0.644)
+}
+.b1{
+    text-decoration: underline;
+}
+.b2{
+    transition: 1s;
+    
+}
+.b2:hover{
+    color: rgb(40, 80, 192);
+    text-decoration: underline;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news
+{
+    height: 550px;
+    width: 300px;
+    border: 3px solid grey ;
+    position: relative;
+    background-color: whitesmoke;
+   
+    margin: 40px;
+}
+.nfoto img{
+    height: 349px;
+    width: 296px;
+    
+    border-right: 1px solid grey;
+   
+}
+.nfoto{
+    position: absolute;
+}
+.ntext{
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+    color: rgb(25, 4, 119);
+}
+.tarix{
+    height: 90px;
+    width: 90px;
+    border: 1px solid rgb(110, 110, 110);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(13, 85, 94);
+
+}
+.time{
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 90px;
+    height: 20px;
+    background-color: rgb(37, 126, 153);
+}
+.time span{
+   position: absolute;
+left: 37px;
+}
+.tarix span{
+    left: 27px;
+    position: absolute;
+}
+.ntext b{
+    text-decoration: underline;
+}
+.nicons{
+    position: absolute;
+    bottom:3px ;
+     display: inline-block;
+     left: 40px;
+
+}
+.nicons .like{
+    display: inline-block;
+padding-right: 25px;
+padding-left: 25px;
+border: 1px solid grey;
+transition: 0.5s;
+width: 70px;
+height: 24px;
+
+
+}
+.dislike{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid grey;
+    width: 70px;
+    height: 24px;
+    transition: 0.5s;
+   
+}
+.eye{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid grey;
+    width: 70px;
+    height: 24px;
+    transition: 0.5s;
+}
+.news .nicons .like:hover{
+    background-color: rgb(97, 155, 97);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.news .nicons .dislike:hover{
+    background-color: rgb(155, 97, 97);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.news .nicons .eye:hover{
+    background-color: rgb(142, 155, 97);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+b:hover{
+    color:rgb(179, 46, 46);
+}
